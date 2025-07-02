@@ -24,7 +24,6 @@ This platform allows:
 ### Frontend
 - **Angular 19**
 - **Bootstrap 5**
-- **Flutter (mobile version)**
 
 ### Backend
 - **Java 21**
