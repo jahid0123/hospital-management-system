@@ -1,19 +1,92 @@
-Description
-The Hospital Management System is a full-stack web application where:
-→ Admin can be admit, discharge, and track with details like room, admission date, and medical documents. manage beds, bills, patients, discharges, and view revenue and hospital statistics through a dashboard.
-→ Doctors can manage approved appointments, create prescriptions, and monitor their patient records.
+#  Hospital Management System – Full Stack Web Application
 
-It supports critical hospital workflows including advance payment, billing, and PDF report generation, built using Angular 19, Spring Boot 3, and Oracle 19c.
+The **Hospital Management System** is a full-stack web application built to manage hospital operations like patient admission, billing, prescription, and admin monitoring. It supports role-based features for doctors and admins and integrates advanced modules like PDF generation and file uploads.
 
-Key Objectives
-Patient Admission with room assignment, admission date, and advance payment
-Doctor Prescription Management (symptoms, diagnosis, medicines list)
-Discharge Flow: update discharge date, generate final bill with PDF receipt
-Billing System: doctor fee, room charges, medicine cost, advance adjustment, final due
-Secure role-based login (Admin, Doctor, Patient) with JWT authentication
-Admin Dashboard with statistics:
+##  Project Overview
 
-Total admitted patients, Total discharges, Bed availability, Monthly revenue
+This platform allows:
 
-PDF Reports using JasperReports for: Prescription
+-  **Doctors** to manage appointments, create prescriptions, and view patients who's are admitted under him records.
+-  **Admins** to manager admit/discharge patients, manage bed, manage users, generate bills, and monitor hospital stats.
 
+## Key Features
+
+-  Patient admission with room type, advance payment, and discharge tracking
+-  Prescription creation with medicine list, symptoms, and diagnosis
+-  JasperReports-based PDF generation for prescriptions and billing receipts
+-  Advance payment modal & real-time billing updates
+-  Admin dashboard for beds, revenue, and patient statistics
+-  Appointment booking and management
+
+
+## 💻 Tech Stack
+
+### Frontend
+- **Angular 19**
+- **Bootstrap 5**
+- **Flutter (mobile version)**
+
+### Backend
+- **Java 21**
+- **Spring Boot 3**
+- **Spring Security 6 (JWT authentication)**
+- **JasperReports**
+
+### Database
+- **Oracle 19c**
+
+##  Modules
+
+- **Authentication & Authorization**: Secure login for Admin, Doctor
+- **Patient Admission**:
+  - Room selection, advance amount, and discharge button
+  - View admitted patients and their billing
+- **Prescription**:
+  - Create with symptoms, diagnosis, and medicine list
+  - Download PDF version
+- **Billing System**:
+  - Calculate total charges: room, doctor, medicine
+  - Auto-generate final bill on discharge
+- **Admin Dashboard**:
+  - Revenue, active beds, total patients, total doctors, etc.
+- **File Upload**: Store and view patient documents or reports
+
+## Getting Started
+
+### Prerequisites
+
+- Java 21
+- Node.js + Angular CLI
+- Oracle 19c DB
+- Spring Boot
+- Maven
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/jahid0123/hospital-management.git
+cd hospital-management
+```
+
+> Ensure backend and frontend are configured and run in separate terminals with correct environment variables.
+
+---
+
+##  Screenshots
+
+> *(Add screenshots here if available: Job Listing Page, Admin Dashboard, Apply Job Form, etc.)*
+
+---
+## Educational Objective
+This project is designed to demonstrate:
+
+- End-to-end hospital workflow using Spring Boot and Angular
+- Integration of file upload, PDF export, and financial calculation
+- Role-based dashboards and workflows
+- Modular development for real-world healthcare use cases
+---
+## 🙋‍♂️ Author
+
+**Jahid Ahmed**  
+Student | Full Stack Developer  
+🌐 Java | Spring Boot | Angular | Oracle | Flutter
